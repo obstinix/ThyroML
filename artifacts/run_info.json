@@ -29,7 +29,7 @@
   "n_retained": 7156,
   "n_train": 5725,
   "n_test": 1431,
-  "runtime_seconds": 59.8,
+  "runtime_seconds": 57.9,
   "versions": {
     "python": "3.11.9",
     "numpy": "2.4.6",

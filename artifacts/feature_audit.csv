@@ -29,4 +29,4 @@ TT4_measured,process proxy,ablation only (as missing indicators),identical to mi
 T4U_measured,process proxy,ablation only (as missing indicators),identical to missingness of the value; encodes which tests were ordered
 FTI_measured,process proxy,ablation only (as missing indicators),identical to missingness of the value; encodes which tests were ordered
 TBG_measured,process proxy,ablation only (as missing indicators),identical to missingness of the value; encodes which tests were ordered
-TBG,laboratory value,ablation only,missing in about 96% of retained records
+TBG,laboratory value,ablation only,missing in over 98% of retained records in every class (96% of all records)
