@@ -1,0 +1,33 @@
+source_code,source_meaning,mapped_class,exclusion_reason,n_records,n_retained,pct_of_original,pct_of_retained
+A,hyperthyroid,Hyperthyroid,,147,147,1.6,2.05
+B,T3 toxic,Hyperthyroid,,21,21,0.23,0.29
+D,secondary toxic,Hyperthyroid,,8,8,0.09,0.11
+C,toxic goitre,Hyperthyroid,,6,6,0.07,0.08
+K,concurrent non-thyroidal illness,Euthyroid-sick,,436,436,4.75,6.09
+-,no condition requiring comment,Euthyroid,,6771,6538,73.82,91.36
+G,compensated hypothyroid,excluded,single code outside target scope,359,0,3.91,0.0
+I,increased binding protein,excluded,single code outside target scope,346,0,3.77,0.0
+F,primary hypothyroid,excluded,single code outside target scope,233,0,2.54,0.0
+R,discordant assay results,excluded,single code outside target scope,196,0,2.14,0.0
+L,consistent with replacement therapy,excluded,single code outside target scope,115,0,1.25,0.0
+M,underreplaced,excluded,single code outside target scope,111,0,1.21,0.0
+N,overreplaced,excluded,single code outside target scope,110,0,1.2,0.0
+S,elevated TBG,excluded,single code outside target scope,85,0,0.93,0.0
+GK,compensated hypothyroid + concurrent non-thyroidal illness,excluded,multiple concurrent codes,49,0,0.53,0.0
+AK,hyperthyroid + concurrent non-thyroidal illness,excluded,multiple concurrent codes,46,0,0.5,0.0
+J,decreased binding protein,excluded,single code outside target scope,30,0,0.33,0.0
+MK,underreplaced + concurrent non-thyroidal illness,excluded,multiple concurrent codes,16,0,0.17,0.0
+O,antithyroid drugs,excluded,single code outside target scope,14,0,0.15,0.0
+Q,surgery,excluded,single code outside target scope,14,0,0.15,0.0
+C|I,"consistent with toxic goitre, more likely increased binding protein",excluded,ambiguous 'X|Y' code,12,0,0.13,0.0
+KJ,concurrent non-thyroidal illness + decreased binding protein,excluded,multiple concurrent codes,11,0,0.12,0.0
+GI,compensated hypothyroid + increased binding protein,excluded,multiple concurrent codes,10,0,0.11,0.0
+H|K,"consistent with secondary hypothyroid, more likely concurrent non-thyroidal illness",excluded,ambiguous 'X|Y' code,8,0,0.09,0.0
+FK,primary hypothyroid + concurrent non-thyroidal illness,excluded,multiple concurrent codes,6,0,0.07,0.0
+P,I131 treatment,excluded,single code outside target scope,5,0,0.05,0.0
+MI,underreplaced + increased binding protein,excluded,multiple concurrent codes,2,0,0.02,0.0
+D|R,"consistent with secondary toxic, more likely discordant assay results",excluded,ambiguous 'X|Y' code,1,0,0.01,0.0
+E,hypothyroid,excluded,single code outside target scope,1,0,0.01,0.0
+GKJ,compensated hypothyroid + concurrent non-thyroidal illness + decreased binding protein,excluded,multiple concurrent codes,1,0,0.01,0.0
+LJ,consistent with replacement therapy + decreased binding protein,excluded,multiple concurrent codes,1,0,0.01,0.0
+OI,antithyroid drugs + increased binding protein,excluded,multiple concurrent codes,1,0,0.01,0.0

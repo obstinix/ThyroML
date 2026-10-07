@@ -1,0 +1,32 @@
+# Data and caches (data is downloaded by kagglehub into its own cache, outside the repo)
+data/
+cache/
+*.data
+*.test
+*.names
+*.csv.gz
+*.zip
+*.parquet
+
+# Credentials and environment
+kaggle.json
+.kaggle/
+.env
+.env.*
+
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.DS_Store
+Thumbs.db
+
+# Large binaries; the small final pipeline file is allow-listed deliberately
+*.joblib
+*.pkl
+*.h5
+*.npy
+*.npz
+!artifacts/thyroml_final_pipeline.joblib

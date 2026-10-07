@@ -1,0 +1,5 @@
+,train,test,test_share_%
+Euthyroid,5230,1308,20.0
+Euthyroid-sick,349,87,20.0
+Hyperthyroid,146,36,19.8
+total,5725,1431,20.0

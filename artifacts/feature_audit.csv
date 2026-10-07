@@ -1,0 +1,32 @@
+column,group,decision,reason
+record_id,identifier,excluded,"record identifier; no predictive meaning, would enable memorisation"
+diagnosis,source label,excluded,source diagnosis code from which the target is derived
+TSH,laboratory value,MAIN,thyroid hormone measurement
+T3,laboratory value,MAIN,thyroid hormone measurement
+TT4,laboratory value,MAIN,thyroid hormone measurement
+T4U,laboratory value,MAIN,thyroid hormone measurement
+FTI,laboratory value,MAIN,thyroid hormone measurement
+age,demographic,MAIN,patient attribute (ages > 120 set to NaN)
+sex,demographic,MAIN,patient attribute
+pregnant,clinical history,MAIN,patient condition/medication not tied to the target codes
+lithium,clinical history,MAIN,patient condition/medication not tied to the target codes
+goitre,clinical history,MAIN,patient condition/medication not tied to the target codes
+tumor,clinical history,MAIN,patient condition/medication not tied to the target codes
+hypopituitary,clinical history,MAIN,patient condition/medication not tied to the target codes
+psych,clinical history,MAIN,patient condition/medication not tied to the target codes
+on_thyroxine,treatment history/decision,ablation only,records past thyroid treatment decisions; linked to excluded codes L-Q and alters hormone levels
+query_on_thyroxine,treatment history/decision,ablation only,records past thyroid treatment decisions; linked to excluded codes L-Q and alters hormone levels
+on_antithyroid_medication,treatment history/decision,ablation only,records past thyroid treatment decisions; linked to excluded codes L-Q and alters hormone levels
+I131_treatment,treatment history/decision,ablation only,records past thyroid treatment decisions; linked to excluded codes L-Q and alters hormone levels
+thyroid_surgery,treatment history/decision,ablation only,records past thyroid treatment decisions; linked to excluded codes L-Q and alters hormone levels
+sick,target proxy risk,ablation only,'sick' flag may encode the same judgement as code K (concurrent non-thyroidal illness)
+query_hypothyroid,process proxy,ablation only,"the referring clinician's question, i.e. a suspicion, not a measurement"
+query_hyperthyroid,process proxy,ablation only,"the referring clinician's question, i.e. a suspicion, not a measurement"
+referral_source,process proxy,ablation only,"which clinic/route referred the sample; site, not physiology"
+TSH_measured,process proxy,ablation only (as missing indicators),identical to missingness of the value; encodes which tests were ordered
+T3_measured,process proxy,ablation only (as missing indicators),identical to missingness of the value; encodes which tests were ordered
+TT4_measured,process proxy,ablation only (as missing indicators),identical to missingness of the value; encodes which tests were ordered
+T4U_measured,process proxy,ablation only (as missing indicators),identical to missingness of the value; encodes which tests were ordered
+FTI_measured,process proxy,ablation only (as missing indicators),identical to missingness of the value; encodes which tests were ordered
+TBG_measured,process proxy,ablation only (as missing indicators),identical to missingness of the value; encodes which tests were ordered
+TBG,laboratory value,ablation only,missing in about 96% of retained records

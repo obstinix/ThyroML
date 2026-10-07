@@ -1,0 +1,15 @@
+# ThyroML: packages imported by ThyroML.ipynb, plus the tools to execute it.
+# Tested with Python 3.11.9 and the exact versions recorded in artifacts/run_info.json.
+numpy>=2.4,<3
+pandas>=3.0,<4
+scikit-learn>=1.9,<2
+scipy>=1.17,<2
+matplotlib>=3.11,<4
+seaborn>=0.13,<0.14
+joblib>=1.6,<2
+lightgbm>=4.7,<5
+kagglehub>=1.0,<2
+ipython>=9.0,<10
+ipykernel>=7.0,<8
+nbconvert>=7.17,<8
+jupyter>=1.1,<2

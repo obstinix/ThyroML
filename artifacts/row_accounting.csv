@@ -1,0 +1,9 @@
+step,reason,removed,rows_remaining
+0 original thyroid0387 records,,0,9172
+1 code mapping,excluded: single code outside target scope,1619,
+1 code mapping,excluded: multiple concurrent codes,143,
+1 code mapping,excluded: ambiguous 'X|Y' code,21,
+1 code mapping,excluded: unparseable/unmapped code,0,7389
+2 lab evidence,excluded: no hormone measured,231,7158
+3 exact duplicates,removed: exact duplicate record,2,
+4 conflicting duplicates,removed: duplicate attributes with conflicting labels,0,7156

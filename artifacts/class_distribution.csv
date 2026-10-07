@@ -1,0 +1,4 @@
+derived_label,n,pct,source_codes
+Euthyroid,6538,91.36,-
+Euthyroid-sick,436,6.09,K
+Hyperthyroid,182,2.54,"A, B, C, D"

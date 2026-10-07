@@ -1,0 +1,6 @@
+reason,n_records,codes
+excluded: single code outside target scope,1619,"G, I, F, R, L, M, N, S, J, Q, O, P"
+excluded: no hormone measured,231,-
+excluded: multiple concurrent codes,143,"GK, AK, MK, KJ, GI, FK, MI, LJ, GKJ, OI"
+excluded: ambiguous 'X|Y' code,21,"C|I, H|K, D|R"
+removed: exact duplicate record,2,-

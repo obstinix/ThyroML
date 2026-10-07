@@ -1,0 +1,4 @@
+own class (n complete cases=4826),Euthyroid,Euthyroid-sick,Hyperthyroid
+Euthyroid,0.966,0.027,0.007
+Euthyroid-sick,0.366,0.634,0.0
+Hyperthyroid,0.347,0.0,0.653
