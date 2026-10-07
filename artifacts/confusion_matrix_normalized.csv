@@ -1,0 +1,4 @@
+,pred Euthyroid,pred Euthyroid-sick,pred Hyperthyroid
+true Euthyroid,0.98,0.012,0.008
+true Euthyroid-sick,0.0,1.0,0.0
+true Hyperthyroid,0.111,0.0,0.889

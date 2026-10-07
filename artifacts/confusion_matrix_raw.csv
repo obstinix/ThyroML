@@ -1,0 +1,4 @@
+,pred Euthyroid,pred Euthyroid-sick,pred Hyperthyroid
+true Euthyroid,1282,16,10
+true Euthyroid-sick,0,87,0
+true Hyperthyroid,4,0,32

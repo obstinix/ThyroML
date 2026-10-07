@@ -1,0 +1,10 @@
+diagnosis,Euthyroid,Euthyroid-sick,Hyperthyroid,n,meaning
+GK,0,49,0,49,compensated hypothyroid + concurrent non-thyroidal illness
+AK,2,0,44,46,hyperthyroid + concurrent non-thyroidal illness
+MK,0,16,0,16,underreplaced + concurrent non-thyroidal illness
+C|I,7,0,5,12,"consistent with toxic goitre, more likely increased binding protein"
+KJ,11,0,0,11,concurrent non-thyroidal illness + decreased binding protein
+H|K,1,7,0,8,"consistent with secondary hypothyroid, more likely concurrent non-thyroidal illness"
+FK,0,6,0,6,primary hypothyroid + concurrent non-thyroidal illness
+D|R,1,0,0,1,"consistent with secondary toxic, more likely discordant assay results"
+GKJ,0,1,0,1,compensated hypothyroid + concurrent non-thyroidal illness + decreased binding protein

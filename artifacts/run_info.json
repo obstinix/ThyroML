@@ -1,0 +1,51 @@
+{
+  "seed": 42,
+  "cv_repeat_seeds": [
+    43,
+    44,
+    45
+  ],
+  "final_model": "Random Forest",
+  "final_params": {
+    "max_depth": 12,
+    "min_samples_leaf": 3
+  },
+  "main_features": [
+    "TSH",
+    "T3",
+    "TT4",
+    "T4U",
+    "FTI",
+    "age",
+    "sex",
+    "pregnant",
+    "lithium",
+    "goitre",
+    "tumor",
+    "hypopituitary",
+    "psych"
+  ],
+  "n_original": 9172,
+  "n_retained": 7156,
+  "n_train": 5725,
+  "n_test": 1431,
+  "runtime_seconds": 59.8,
+  "versions": {
+    "python": "3.11.9",
+    "numpy": "2.4.6",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.9.1",
+    "scipy": "1.17.1",
+    "matplotlib": "3.11.2",
+    "seaborn": "0.13.2",
+    "lightgbm": "4.7.0",
+    "joblib": "1.6.0",
+    "kagglehub": "1.0.2"
+  },
+  "hardware": {
+    "platform": "Windows-10-10.0.26300-SP0",
+    "processor": "Intel64 Family 6 Model 198 Stepping 2, GenuineIntel",
+    "logical_cpus": 24,
+    "compute": "CPU only (GPU not used: small tabular data)"
+  }
+}
